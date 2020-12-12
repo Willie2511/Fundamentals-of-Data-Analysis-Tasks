@@ -1,2 +1,8 @@
-# Semester2
-College Work Semester 2
+# Fundamentals of Data Analysis Tasks
+
+
+This repository contains a jupyter notebook with four completed tasks for the Fundamentals of Data Analysis module. Each task has been given an individual section in the notebook, clearly marked with a heading, beginning with an explanation of the thought process behind methods of completing the task, followed by the code. The tasks got increasingly difficult, and required greater levels of complexity and detail in the code. 
+
+Task 1 - Required a Python function called counts to be created, which takes a list as input and returns a dictionary of unique items in the list as keys and the number of times each item appears as values. The python dict() function was used for this task, a function which creates a dictionary, taking a list as input. The List.count() function is used to return a count of each key in the list. This task was relatively simple and required very minimal code.
+
+Task 2 - Required a Python function called dicerolls to be created which simulates rolling dice. The function takes two parameters: the number of dice k, and the number of times to roll the dice n. The function simulates randomly rolling k dice n times, keeping track of each total face value, and returns a dictionary with the number of times each possible total face value occurred. Once the function and its parameters were defined, an empty dictionary was set up. This was followed by a for loop which used the random.choice function to select a side value of the rolled dice, and was carried out n times. The results of each roll in the loop were added to the empty dictionary. The function then returns a dictionary of results. This task required a defined function, the creation of a dictionary, and a standard for loop to return the desired output. 
